@@ -18,7 +18,7 @@ namespace SMS_Twilio.Service
                 TwilioClient.Init(accountSid, authToken);
 
                 var verificationCheck = VerificationCheckResource.Create(
-                    to: "+15017122661",
+                    to: "+5521992250096",
                     code: code,
                     pathServiceSid: "VAd8e8447abf76ebfbcdac9f65a1e2bdaf"
                 );
