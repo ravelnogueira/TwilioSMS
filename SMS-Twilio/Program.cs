@@ -2,7 +2,7 @@
 using Twilio;
 using Twilio.Rest.Verify.V2.Service;
 
-class Main
+class Main1
 {
     static void Main(string[] args)
     {
@@ -10,7 +10,7 @@ class Main
 
         Console.WriteLine("Digite o código");
 
-        var code1 = Console.ReadLine();
+        var code1 = Console.ReadLine("Digie algo");
 
         Validity.ValidarSms(code1);
 
